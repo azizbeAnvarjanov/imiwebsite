@@ -8,8 +8,13 @@ const nextConfig = {
   reactStrictMode: true,
   output: "standalone",
   productionBrowserSourceMaps: false,
+  // Disable SWC optimizations to prevent bus errors
+  swcMinify: false,
   experimental: {
     optimizePackageImports: ["@radix-ui/react-*", "lucide-react"],
+    // Disable SWC-based optimizations that might cause bus errors
+    swcTraceProfiling: false,
+    swcPlugins: [],
   },
   webpack: (config) => {
     config.resolve.alias = {
