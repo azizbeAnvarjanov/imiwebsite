@@ -4,29 +4,29 @@ import React from "react";
 import { Globe, BookOpen } from "lucide-react";
 import ErasmusRows from "@/app/(customComponents)/ErasmusRows";
 import BenefitsSection from "@/app/(customComponents)/BenefitsSection";
+import { useTranslations } from "next-intl";
 
 const Erasmus = () => {
+  const t = useTranslations("erasmus");
   return (
     <div className="py-10 px-4 bg-white">
       {/* Header Section */}
       <div className="max-w-6xl mx-auto space-y-4 flex flex-col justify-center min-h-[50vh]">
         <h1 className="text-4xl sm:text-5xl font-bold uppercase text-center sm:text-left">
-          Program
+          {t("name")}
         </h1>
         <h1 className="text-4xl sm:text-5xl text-blue-600 font-bold uppercase text-center sm:text-left">
-          Erasmus+
+          {t("p1")}
         </h1>
         <p className="text-base sm:text-xl text-gray-700 max-w-xl mx-auto sm:mx-0 text-center sm:text-left">
-          Erasmus+ is a European Union program aimed at supporting projects,
-          partnerships, events, and mobility in the fields of education,
-          training, youth, and sports.
+          {t("p2")}
         </p>
       </div>
 
       {/* International Educational Opportunities Section */}
       <div className="max-w-6xl mx-auto mt-16">
         <h1 className="text-3xl sm:text-4xl text-blue-600 font-bold text-center sm:text-left">
-          International Educational Opportunities
+          {t("p3")}
         </h1>
 
         <div className="flex flex-col lg:flex-row gap-6 py-8">
@@ -36,21 +36,10 @@ const Erasmus = () => {
               <div className="bg-purple-600 text-white p-3 rounded-lg">
                 <Globe className="w-6 h-6" />
               </div>
-              <h2 className="text-xl font-bold text-gray-900">
-                International Cooperation
-              </h2>
+              <h2 className="text-xl font-bold text-gray-900">{t("p4")}</h2>
             </div>
-            <p className="text-gray-700 mb-2 text-sm sm:text-base">
-              Erasmus+ provides funding opportunities for cooperation both
-              between European countries (so-called program countries) and
-              between these European countries and partner countries around the
-              world.
-            </p>
-            <p className="text-gray-700 text-sm sm:text-base">
-              The program supports a variety of projects aimed at achieving
-              long-term impact on universities and higher education systems in
-              partner countries.
-            </p>
+            <p className="text-gray-700 mb-2 text-sm sm:text-base">{t("p6")}</p>
+            <p className="text-gray-700 text-sm sm:text-base">{t("p7")}</p>
           </div>
 
           {/* Educational Initiatives */}
@@ -59,20 +48,10 @@ const Erasmus = () => {
               <div className="bg-blue-600 text-white p-3 rounded-lg">
                 <BookOpen className="w-6 h-6" />
               </div>
-              <h2 className="text-xl font-bold text-gray-900">
-                Educational Initiatives
-              </h2>
+              <h2 className="text-xl font-bold text-gray-900">{t("p5")}</h2>
             </div>
-            <p className="text-gray-700 mb-2 text-sm sm:text-base">
-              Within Erasmus+ CBHE (Capacity Building in Higher Education), the
-              European Union supports projects aimed at enhancing the capacity
-              of higher education institutions.
-            </p>
-            <p className="text-gray-700 text-sm sm:text-base">
-              Capacity building projects are based on multilateral partnerships,
-              primarily between higher education institutions (HEIs) from 34
-              program countries and more than 150 partner countries.
-            </p>
+            <p className="text-gray-700 mb-2 text-sm sm:text-base">{t("p8")}</p>
+            <p className="text-gray-700 text-sm sm:text-base">{t("p9")}</p>
           </div>
         </div>
       </div>
@@ -81,10 +60,10 @@ const Erasmus = () => {
       <div className="max-w-6xl mx-auto mt-10">
         <div className="text-center sm:text-left">
           <h1 className="text-3xl text-blue-600 font-bold">
-            Projects and Opportunities
+            {t("p10")}
           </h1>
           <p className="text-sm text-gray-600">
-            Programs for educational capacity development
+            {t("p11")}
           </p>
         </div>
         <div className="mt-6">
@@ -96,14 +75,13 @@ const Erasmus = () => {
       <div className="max-w-6xl mx-auto px-4 py-12">
         <div className="text-center space-y-4">
           <span className="mx-auto bg-red-200 py-1 px-4 text-sm rounded-full">
-            For Students and Institutions
+            {t("p24")}
           </span>
           <h1 className="text-2xl sm:text-3xl text-blue-600 font-bold">
-            Benefits of Participating in Erasmus+
+            {t("p25")}
           </h1>
           <p className="text-sm sm:text-base text-gray-700 max-w-2xl mx-auto">
-            The Erasmus+ program offers many benefits for students, teachers,
-            and educational institutions around the world.
+            {t("p26")}
           </p>
         </div>
         <div className="mt-10">

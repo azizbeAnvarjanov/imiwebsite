@@ -9,41 +9,43 @@ import {
   Coffee,
   MapPin,
 } from "lucide-react";
-
-const items = [
-  {
-    icon: <Globe className="w-8 h-8 text-blue-500" />,
-    title: "International Experience",
-    desc: "Opportunity to study, teach and conduct research in an international environment, get acquainted with different cultures and teaching methods.",
-  },
-  {
-    icon: <User className="w-8 h-8 text-green-500" />,
-    title: "Skills Development",
-    desc: "Improvement of language competencies, intercultural skills, adaptability, independence, and increased competitiveness in the job market.",
-  },
-  {
-    icon: <BadgeCheck className="w-8 h-8 text-purple-500" />,
-    title: "Prestigious Opportunities",
-    desc: "Access to high-quality educational programs, recognized diplomas and certificates that are valued by employers worldwide.",
-  },
-  {
-    icon: <BookOpen className="w-8 h-8 text-rose-500" />,
-    title: "Education Modernization",
-    desc: "For educational institutions — the opportunity to modernize curricula, teaching methods, and administrative processes in accordance with international standards.",
-  },
-  {
-    icon: <Coffee className="w-8 h-8 text-orange-500" />,
-    title: "Broadening Horizons",
-    desc: "Meeting new people, ideas, and perspectives that enrich participants' personal and professional experiences.",
-  },
-  {
-    icon: <MapPin className="w-8 h-8 text-purple-700" />,
-    title: "Financial Support",
-    desc: "Grants for studying, internships, and living abroad that make international mobility accessible to many students and teachers.",
-  },
-];
+import { useTranslations } from "next-intl";
 
 export default function BenefitsSection() {
+  const t = useTranslations("erasmus");
+
+  const items = [
+    {
+      icon: <Globe className="w-8 h-8 text-blue-500" />,
+      title: t("p27"),
+      desc: t("p28"),
+    },
+    {
+      icon: <User className="w-8 h-8 text-green-500" />,
+      title: t("p29"),
+      desc: t("p30"),
+    },
+    {
+      icon: <BadgeCheck className="w-8 h-8 text-purple-500" />,
+      title: t("p31"),
+      desc: t("p32"),
+    },
+    {
+      icon: <BookOpen className="w-8 h-8 text-rose-500" />,
+      title: t("p33"),
+      desc: t("p35"),
+    },
+    {
+      icon: <Coffee className="w-8 h-8 text-orange-500" />,
+      title: t("p34"),
+      desc: t("p36"),
+    },
+    {
+      icon: <MapPin className="w-8 h-8 text-purple-700" />,
+      title: t("p37"),
+      desc: t("p38"),
+    },
+  ];
   return (
     <div className="py-12 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">

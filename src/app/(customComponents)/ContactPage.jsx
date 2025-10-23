@@ -1,7 +1,9 @@
 "use client";
+import { useTranslations } from "next-intl";
 import { useState } from "react";
 
 export default function ContactPage() {
+  const t = useTranslations("contact");
   const [submitted, setSubmitted] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
@@ -29,10 +31,9 @@ export default function ContactPage() {
           <div className="flex items-start gap-4">
             <div className="text-blue-600 text-3xl">📍</div>
             <div>
-              <h3 className="font-bold text-xl">Address</h3>
+              <h3 className="font-bold text-xl">{t("p1")}</h3>
               <p>
-                Namangan viloyati, Namangan shahar, K.Otamirzayev ko&apos;chasi.
-                1-uy
+                {t("p2")}
               </p>
             </div>
           </div>
@@ -40,18 +41,18 @@ export default function ContactPage() {
           <div className="flex items-start gap-4">
             <div className="text-blue-600 text-3xl">📞</div>
             <div>
-              <h3 className="font-bold text-xl">Phone</h3>
-              <p>Uzbekistan: +998958845171</p>
-              <p>WhatsApp: +998958845171</p>
-              <p>Telegram: +998958845171</p>
+              <h3 className="font-bold text-xl">{t("p3")}</h3>
+              <p>{t("p4")}</p>
+              <p>{t("p5")}</p>
+              <p>{t("p6")}</p>
             </div>
           </div>
           {/* Email */}
           <div className="flex items-start gap-4">
             <div className="text-blue-600 text-3xl">✉️</div>
             <div>
-              <h3 className="font-bold text-xl">Email</h3>
-              <p>info@impulsmi.uz</p>
+              <h3 className="font-bold text-xl">{t("p7")}</h3>
+              <p>{t("p8")}</p>
             </div>
           </div>
         </div>
@@ -60,7 +61,7 @@ export default function ContactPage() {
         <form onSubmit={handleSubmit} className="space-y-4">
           <input
             name="name"
-            placeholder="Your name"
+            placeholder={t("p9")}
             className="w-full border border-gray-300 p-3 rounded"
             onChange={handleChange}
             required
@@ -68,26 +69,26 @@ export default function ContactPage() {
           <input
             name="email"
             type="email"
-            placeholder="Your email"
+            placeholder={t("p10")}
             className="w-full border border-gray-300 p-3 rounded"
             onChange={handleChange}
             required
           />
           <input
             name="mobile"
-            placeholder="Your Mobile"
+            placeholder={t("p11")}
             className="w-full border border-gray-300 p-3 rounded"
             onChange={handleChange}
           />
           <input
             name="subject"
-            placeholder="Subject"
+            placeholder={t("p12")}
             className="w-full border border-gray-300 p-3 rounded"
             onChange={handleChange}
           />
           <textarea
             name="message"
-            placeholder="Your message (optional)"
+            placeholder={t("p13")}
             rows="4"
             className="w-full border border-gray-300 p-3 rounded"
             onChange={handleChange}
@@ -96,12 +97,10 @@ export default function ContactPage() {
             type="submit"
             className="bg-blue-600 text-white py-3 px-6 rounded hover:bg-blue-700 transition w-full"
           >
-            Submit
+            {t("p14")}
           </button>
           {submitted && (
-            <p className="text-green-600 font-medium mt-2">
-              ✅ Habaringiz yuborildi!
-            </p>
+            <p className="text-green-600 font-medium mt-2">✅ {t("p15")}</p>
           )}
         </form>
       </div>
