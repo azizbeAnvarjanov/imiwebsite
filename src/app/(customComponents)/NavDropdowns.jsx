@@ -46,7 +46,7 @@ const NavDropdowns = () => {
                     <span>{t(subLink.name)}</span>
                     {subLink.href === "/" && (
                       <span className="ml-2 text-xs bg-blue-100 px-2 py-0.5 rounded">
-                        Tez kunda
+                        {t("tez-kunda")}
                       </span>
                     )}
                   </Link>
