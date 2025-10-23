@@ -610,7 +610,11 @@
     "kafedra-professor-oqituvchilar": "Kafedra professor-o‘qituvchilari quyidagi yo‘nalishlarda:",
     "kafedra-professor-oqituvchilar-detail": "13.00.02 – Ta’lim va tarbiya nazariyasi va metodikasi (pedagogika fanlari) ixtisosligi\n10.00.04 – Yevropa, Amerika va Avstraliya xalqlari tili va adabiyoti ixtisosligi \n10.00.06 – Qiyosiy adabiyotshunoslik, chog‘ishtirma tilshunoslik va tarjimashunoslik ixtisosligi \ntalabalarning o‘zbek va ingliz tillaridan bilim va ko‘nikmalarini shakllantirib, og‘zaki va yozma nutq malakalarini rivojlantirish, qolaversa USMLE tizimi bo‘yicha o‘quv va ilmiy faoliyat olib boradilar.",
     "kafedra-professor-oqituvchilar-detail-2": "Kafedra xodimlari tomonidan barcha bosqichlar uchun namunaviy va ishchi dasturlar, sillabuslar ishlab chiqilgan, qator o‘quv qo‘llanmalar, elektron darsliklar, o‘quv-uslubiy qo‘llanmalar tuzilgan va chop etilgan. Kafedra professor-o‘qituvchilari tomonidan ko‘plab ma’naviy-ma’rifiy va tashkiliy-tarbiyaviy ishlar olib borilmoqda.",
-    "foto-galereya": ["/foreign-languages/2.png", "/foreign-languages/3.png", "/foreign-languages/4.png"]
+    "foto-galereya": [
+      "/foreign-languages/2.png",
+      "/foreign-languages/3.png",
+      "/foreign-languages/4.png"
+    ]
   },
   "surgery": {
     "name": "UMUMIY XIRURGIYA KAFEDRASI",
@@ -625,6 +629,61 @@
     "kafedra-professor-oqituvchilar-detail": "Kafedra professor-o‘qituvchilari tomonidan ko‘plab ma’naviy-ma’rifiy va tashkiliy-tarbiyaviy ishlar hamda ilmiy izlanishlar, maktab seminarlar, conferentsiya va forumlar tashkil etilmoqda.",
     "kafedra-professor-oqituvchilar-detail-2": "",
     "foto-galereya": ["/surgery/2.jpg", "/surgery/3.jpg", "/surgery/4.jpg"]
+  },
+  "vacancies": {
+    "name": "Impuls Tibbiyot Instituti – Yangi imkoniyatlar makoni!",
+    "p1": "Impuls Tibbiyot Instituti",
+    "p2": "quyidagi ta'lim yo'nalishlari bo'yicha professor-o'qituvchilarni ishga taklif qiladi:",
+    "p3": "Dermatologiya",
+    "p4": "Endokrinologiya",
+    "p5": "Xirurgiya",
+    "p6": "Travmatologiya",
+    "p7": "Radiologiya",
+    "p8": "Sud-med-expertiza",
+    "p9": "Stomatologiya",
+    "p10": "Ichki kasalliklar",
+    "p11": "Ichki kasalliklar propedevtikasi",
+    "p12": "Bolalar kasalliklari propedevtikasi",
+    "p13": "Sizdan kutamiz:",
+    "p14": "O&apos;z vazifangizga mas&apos;uliyat bilan yondashish",
+    "p15": "Magistr darajasi yoki unga teng diplom",
+    "p16": "Kompyuter savodxonligi",
+    "p17": "Biz taklif qilamiz:",
+    "p18": "Raqobatbardosh oylik maosh",
+    "p19": "Professional va do&apos;stona jamoa",
+    "p20": "Eng zamonaviy va jahon standartlariga mos sharoitlar",
+    "p21": "Karyeraviy o&apos;sish uchun to&apos;liq qo&apos;llab-quvvatlash",
+    "p22": "Chet elda va O&apos;zbekistonda institut hisobidan malaka oshirish",
+    "p23": "Ariza topshirish",
+    "p24": "Aloqa",
+    "p25": "",
+    "p26": ""
+  },
+  "library_note": {
+    "name": "Kutubxona",
+    "p1": "Institut kutubxonasi",
+    "p2": "talabalar, o‘qituvchilar va ilmiy xodimlar uchun bilim va axborot manbai sifatida xizmat qiladi. Kutubxonada turli yo‘nalishlardagi o‘quv, ilmiy va badiiy adabiyotlar, davriy nashrlar, elektron resurslar hamda malumotnomalar jamlangan.",
+    "p3": "Kutubxonadan foydalanish tartib-qoidalari",
+    "p4": "Kutubxonadan foydalanish huquqiga institut talabalari, o‘qituvchilari va xodimlari ega.",
+    "p5": "Kitob va materiallarni olish uchun talabalar shaxsiy guvohnoma orqali ro‘yxatdan o‘tadi.",
+    "p6": "Kitoblar muayyan muddatga beriladi; muddat tugagach, uni uzaytirish talab etiladi.",
+    "p7": "Materiallarga ehtiyotkorlik bilan munosabatda bo‘lish shart. Yirtish, yozish yoki yo‘qotish holatlari moddiy javobgarlikka olib keladi.",
+    "p8": "Jimlik saqlash va umumiy tartibga rioya qilish majburiydir.",
+    "p9": "Elektron va axborot resurslari",
+    "p10": "Elektron kitoblar va jurnallar bazasi",
+    "p11": "Onlayn ilmiy jurnallar va maqolalarga kirish imkoni",
+    "p12": "Kompyuterlar va internet aloqasi orqali axborot izlash imkoniyati",
+    "p13": "Mavzuga oid ma’lumotlar bazasi va ma’lumotnomalar",
+    "p14": "Kutubxona jamoasi sizga ilmiy izlanishlar, tahlil ishlari va o‘qish jarayonida doimiy yordam berishga tayyor. Sizdan faqat foydalanish qoidalariga rioya qilish va resurslardan samarali foydalanish talab etiladi.",
+    "p15": "",
+    "p16": "",
+    "p17": "",
+    "p18": "",
+    "p19": "",
+    "p20": "",
+    "p21": "",
+    "p22": "",
+    "p23": "",
+    "p24": ""
   }
 }
-
