@@ -12,7 +12,12 @@ const CoreValues = () => {
         <p className="font-bold">{t("vision")}</p>
         <p>{t("vision_p")}</p> <br />
         <p className="font-bold">{t("mission")}</p>
-        <p>{t("mission_p")}</p>
+        <ul>
+          <li className="ml-6">{t("mission_p")}</li>
+          <li className="ml-6">{t("mission_p2")}</li>
+          <li className="ml-6">{t("mission_p3")}</li>
+          <li className="ml-6">{t("mission_p4")}</li>
+        </ul>
       </div>
     </div>
   );

@@ -71,7 +71,10 @@ const TripInstitute = () => {
         <p>{t("p-9")}</p>
         <p className="text-xl font-bold text-center my-4">{t("p-11")}</p>
         <p>{t("p-12")}</p>
-        <p className="text-xl font-bold text-center my-4">{t("p-13")}</p>
+        <p className="text-xl font-bold text-center my-4 whitespace-pre-line">
+          {t("p-13")}
+        </p>
+
         <p>{t("p-14")}</p>
         <p className="text-xl font-bold text-center my-4">{t("p-15")}</p>
         <p>{t("p-16")}</p>
