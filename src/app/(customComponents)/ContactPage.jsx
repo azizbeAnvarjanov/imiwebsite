@@ -28,13 +28,12 @@ export default function ContactPage() {
         {/* Left Side Info */}
         <div className="space-y-6">
           {/* Location 1 */}
+          <h3 className="font-bold text-xl">{t("h1")}</h3>
           <div className="flex items-start gap-4">
             <div className="text-blue-600 text-3xl">📍</div>
             <div>
               <h3 className="font-bold text-xl">{t("p1")}</h3>
-              <p>
-                {t("p2")}
-              </p>
+              <p>{t("p2")}</p>
             </div>
           </div>
           {/* Phone */}
@@ -43,6 +42,8 @@ export default function ContactPage() {
             <div>
               <h3 className="font-bold text-xl">{t("p3")}</h3>
               <p>{t("p4")}</p>
+              <br />
+              <h3 className="font-bold text-xl">{t("h2")}</h3>
               <p>{t("p5")}</p>
               <p>{t("p6")}</p>
             </div>

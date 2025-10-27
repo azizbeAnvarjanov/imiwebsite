@@ -15,7 +15,7 @@ const PreparationalPage = () => {
       <div className="space-y-5 w-full md:w-[90%] lg:w-[80%] text-base sm:text-lg md:text-xl mx-auto md:mx-0">
         <p>{t("p-1")}</p>
         <p>{t("p-2")}</p>
-        <p>{t("p-3")}</p>
+        <p className="whitespace-pre-line">{t("p-3")}</p>
       </div>
     </div>
   );

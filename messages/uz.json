@@ -439,12 +439,15 @@
   },
   "qabul-tartibi": {
     "title": "Qabul tartibi",
+    "title-2": "Akademik dasturlar",
     "p-1": "“IMI” xorijiy va mahalliy abituriyentlar uchun o‘zbek va ingliz tillarida quyidagi o‘quv dasturini taklif etadi:",
     "p-2": "“IMI”da barcha o‘quv dasturlar to‘lov-kontrakt asosida amalga oshiriladi.",
     "Dasturlar": "Dasturlar",
     "talim-shakli": "Talim shakli",
     "talim-tili": "Talim tili",
     "qish-davomiyligi": "Qish davomiyligi",
+    "title-3": "Ta'lim usullari",
+    "title-4": "To'liq vaqtda ta'lim",
     "p-3": "Kunduzgi ta’lim – mashg‘ulotlar o‘qituvchi tomonidan o‘quv rejalari (ma’ruza, amaliy mashg‘ulot, laboratoriya) asosida auditoriya va klinik bazalarda olib boriladi va talabalar hafta davomida mashg‘ulotlarga qatnashadilar, mashg‘ulotlar 3 paradan bo‘lib, 1-semena va 2-semenalardan iborat.",
     "p-4": "Gibrid ta’lim – an’anaviy ta’lim usullari va elektron ta’limning (ya’ni, raqamli yoki tarmoqqa ulangan ta’lim) afzalliklarini birlashtirib, yaxshiroq ta’lim berish usullarini yaratadi, bunda talaba darsdan so‘ng mustaqil ta’lim uchun institut platformalaridagi o‘qituvchilarimiz tomonidan har bir fan mavzularidan tartibga solingan videodarslar, nazorot testlari va vaziyatli masalalar orqali onlayn holatda foydalanishlari mumkin.",
     "p-5": "Abituriyentlarning ro‘yxatdan o‘tish tartibi",
@@ -749,10 +752,12 @@
     "p15": "Viza va pasport to‘lovlari viza turi, amal qilish muddati, davomiyligi va yashash joyiga qarab farq qilishi mumkin."
   },
   "contact": {
+    "h1": "Bog'lanish uchun ma'lumot",
     "p1": "Manzil",
     "p2": "Namangan viloyati, Namangan shahri, K.Otamirzayev ko‘chasi, 1-uy",
     "p3": "Telefon",
     "p4": "O‘zbekiston: +998958845171",
+    "h2": "Xabarlar",
     "p5": "WhatsApp: +998958845171",
     "p6": "Telegram: +998958845171",
     "p7": "Elektron pochta",

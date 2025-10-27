@@ -1,13 +1,11 @@
 import AutoImageCarousel from "@/app/(customComponents)/NewsImagesCarusel";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import React from "react";
 
 const InstitutOfHistory = () => {
-  const images = [
-    "/institut-history/1.jpg",
-    "/institut-history/2.jpg",
-  ];
+  const images = ["/institut-history/1.jpg", "/institut-history/2.jpg"];
   const t = useTranslations("Institut-history");
+  const locale = useLocale();
 
   return (
     <div>
@@ -19,6 +17,13 @@ const InstitutOfHistory = () => {
         <p>{t("text-4")}</p>
         <p>{t("text-5")}</p>
         <p>{t("text-6")}</p>
+        {locale === "en" && (
+          <>
+            <p>{t("text-7-en")}</p>
+            <p>{t("text-8-en")}</p>
+            <p>{t("text-9-en")}</p>
+          </>
+        )}
       </div>
     </div>
   );

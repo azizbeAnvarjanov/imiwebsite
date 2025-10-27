@@ -74,12 +74,12 @@ const Erasmus = () => {
       {/* Benefits Section */}
       <div className="max-w-6xl mx-auto px-4 py-12">
         <div className="text-center space-y-4">
-          <span className="mx-auto bg-red-200 py-1 px-4 text-sm rounded-full">
-            {t("p24")}
-          </span>
           <h1 className="text-2xl sm:text-3xl text-blue-600 font-bold">
             {t("p25")}
           </h1>
+          <span className="mx-auto bg-red-200 py-1 px-4 text-sm rounded-full mt-4">
+            {t("p24")}
+          </span>
           <p className="text-sm sm:text-base text-gray-700 max-w-2xl mx-auto">
             {t("p26")}
           </p>

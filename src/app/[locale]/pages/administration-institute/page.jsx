@@ -130,7 +130,7 @@ const AdministrationInstitute = () => {
               <TableCell>
                 <strong>{item.raxbar}</strong>
               </TableCell>
-              <TableCell>{item.p}</TableCell>
+              <TableCell className="whitespace-pre-line">{item.p}</TableCell>
             </TableRow>
           ))}
         </TableBody>

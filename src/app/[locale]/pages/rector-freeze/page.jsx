@@ -1,9 +1,11 @@
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import React from "react";
+import { useLocale } from "next-intl";
 
 const RectorFreeze = () => {
   const t = useTranslations("Rector-reeze");
+  const locale = useLocale();
 
   return (
     <div className="p-2">
@@ -35,6 +37,18 @@ const RectorFreeze = () => {
           <p className="text-sm md:text-xl leading-relaxed tracking-tight text-muted-foreground text-left">
             {t("text-5")}
           </p>
+          {locale === "en" && (
+            <>
+              <br />
+              <p className="text-sm md:text-xl leading-relaxed tracking-tight text-muted-foreground text-left">
+                {t("text-6-en")}
+              </p>
+              <br />
+              <p className="text-sm md:text-xl leading-relaxed tracking-tight text-muted-foreground text-left">
+                {t("text-7-en")}
+              </p>
+            </>
+          )}
         </div>
       </div>
     </div>
