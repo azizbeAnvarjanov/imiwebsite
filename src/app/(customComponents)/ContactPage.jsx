@@ -43,9 +43,9 @@ export default function ContactPage() {
               <h3 className="font-bold text-xl">{t("p3")}</h3>
               <p>{t("p4")}</p>
               <br />
-              <h3 className="font-bold text-xl">{t("h2")}</h3>
+              {/* <h3 className="font-bold text-xl">{t("h2")}</h3>
               <p>{t("p5")}</p>
-              <p>{t("p6")}</p>
+              <p>{t("p6")}</p> */}
             </div>
           </div>
           {/* Email */}
