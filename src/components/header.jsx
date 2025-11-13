@@ -53,10 +53,9 @@ export default function Header() {
           <Link className="md:flex hidden font-bold" href="https://learn.impulsmi.uz">
             {t("talim-platformasi")}
           </Link>
-          <div className="md:flex hidden">
+          <div className="">
             <LocalSwitcher />
           </div>
-          <RegionSelect />
         </div>
       </div>
       <nav className="flex p-5 items-center justify-between h-[50%] backdrop-blur-md bg-white/30 -z-50">

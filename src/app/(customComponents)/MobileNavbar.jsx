@@ -62,7 +62,7 @@ const MobileNavbar = () => {
               </Accordion>
             </SheetDescription>
             <div>
-              <LocalSwitcher />
+              {/* <LocalSwitcher /> */}
             </div>
           </SheetHeader>
         </SheetContent>
